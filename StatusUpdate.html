@@ -4,7 +4,7 @@ title: Development Team Status Update
 ---
 
 <div class="posts">
-<h1>Active Work</h1>
+<h2>Active Work</h2>
   {% for post in site.statusupdates %}
   <div class="post">
     {% if post.status == "onhold" %}
@@ -13,7 +13,7 @@ title: Development Team Status Update
 <div class="message">
     <div class="status-title">
         {{ post.title }}
-         <span class="status-type"  style="float: right">{{ post.type }}
+         <span class="status-type"  style="float: right">{{ post.type }}</span>
     </div>
 
     <span class="status-date">updated {{ post.date | date_to_string }}</span>

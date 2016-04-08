@@ -368,13 +368,13 @@ a.sidebar-nav-item:focus {
 }
 .status-type{
   margin-top: 0;
- font-size: .75em;
+ font-size: 1.25em;
  font-weight: bold;
 }
 /* status data line below post title */
 .status-date {
   display: block;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
   font-size: .5rem;
