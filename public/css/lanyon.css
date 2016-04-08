@@ -356,6 +356,30 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+/*
+ * status items
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+.status-title {
+  margin-top: 0;
+ font-size: 1.25em;
+}
+.status-type{
+  margin-top: 0;
+ font-size: .75em;
+ font-weight: bold;
+}
+/* status data line below post title */
+.status-date {
+  display: block;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-size: .5rem;
+}
+
 
 /*
  * Pagination

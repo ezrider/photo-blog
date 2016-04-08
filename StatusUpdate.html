@@ -1,23 +1,54 @@
 ---
-layout: default
-title: Status Update
+layout: statusupdate
+title: Development Team Status Update
 ---
 
 <div class="posts">
+<h1>Active Work</h1>
   {% for post in site.statusupdates %}
   <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
+    {% if post.status == "onhold" %}
+	     {% continue %}
+   {% endif %}
+<div class="message">
+    <div class="status-title">
         {{ post.title }}
-      </a>
-    </h1>
+         <span class="status-type"  style="float: right">{{ post.type }}
+    </div>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="status-date">updated {{ post.date | date_to_string }}</span>
+
+
 
     {{ post.content }}
+	</div>
   </div>
   {% endfor %}
 </div>
+
+<h1>On Hold</h1>
+  {% for post in site.statusupdates %}
+  <div class="post">
+    {% if post.status == "active" %}
+	     {% continue %}
+   {% endif %}
+<div class="message">
+    <div class="status-title">
+        {{ post.title }}
+         <span class="status-type"  style="float: right">{{ post.type }}
+    </div>
+
+    <span class="status-date">updated {{ post.date | date_to_string }}</span>
+
+
+
+    {{ post.content }}
+	</div>
+  </div>
+  {% endfor %}
+</div>
+
+
 
 
 

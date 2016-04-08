@@ -9,7 +9,9 @@ tagline:             'A Jekyll theme'
 description:         '  Thanks for all the fish '
 url:                 http://ezrider.github.io
 baseurl:             ''
-paginate:            5
+#paginate:            5
+gems: [jekyll-paginate]
+paginate: 2
 
 # About/contact
 author:
