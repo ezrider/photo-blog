@@ -1,14 +1,10 @@
 ---
 layout: post
 title: Print Service Upgrade
-status: onhold
+status: completed
 type: Project
+updated: 2016-04-08 9:25:00
 ---
 
-# Bacon
-## Unicorn 
-### Rainbow Sightings
-#### Unicorn Ranches
-##### Mountain Retreats
 
 The print service was refactored and restructured 
