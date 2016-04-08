@@ -6,9 +6,9 @@ type: Project
 ---
 
 *Bacon
-**Unicorn 
-***Rainbow Sightings
-****Unicorn Ranches
-*****Mountain Retreats
+** Unicorn 
+*** Rainbow Sightings
+**** Unicorn Ranches
+***** Mountain Retreats
 
 The print service was refactored and restructured 
