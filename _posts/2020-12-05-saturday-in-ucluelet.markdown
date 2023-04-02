@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Birthday Weekend Ucluelet"
+title:  "Birthday Weekend Ucluelet - Saturday"
 date:   2020-12-05 14:25:34 -0600
 categories: weekend-travels
 ---

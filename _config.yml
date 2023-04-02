@@ -4,13 +4,15 @@
 permalink:           pretty
 
 # Setup
-title:               Searching Close By
-tagline:             'The simple things'
+title:               Travels Near and Far
+tagline:             'Not where, but with Who'
 description:         ' Look close by for the things to sustain you. '
-url:                 http://ezrider.github.io
+url:                 http://github.com/ezrider/ezrider.github.io
 baseurl:             ''
 #paginate:            5
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
 paginate: 2
 
 # About/contact
