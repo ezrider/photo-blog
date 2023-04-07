@@ -6,9 +6,9 @@ categories: greece
 ---
 
 
-![Setting off](/uploads/album/settingoff.jpeg)
+![Setting off]({{ site.baseurl }}/uploads/album/settingoff.jpeg)
 
 After weeks of getting ready, and last minute preparations, Glatia was finally ready to hit the road.
 
-![Setting off](/uploads/album/loadedup1.jpeg)
-![Setting off](/uploads/album/loadedup2.jpeg)
+![Setting off]({{ site.baseurl }}/uploads/album/loadedup1.jpeg)
+![Setting off]({{ site.baseurl }}/uploads/album/loadedup2.jpeg)
