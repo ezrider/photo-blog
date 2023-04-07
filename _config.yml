@@ -8,7 +8,7 @@ title:               Travels Near and Far
 tagline:             'Not where, but with Who'
 description:         ' Look close by for the things to sustain you. '
 url:                 http://ezrider.github.io
-baseurl:             ''
+baseurl:             '/photo-blog'
 #paginate:            5
 #gems: [jekyll-paginate]
 plugins:
